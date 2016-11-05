@@ -1,0 +1,63 @@
+@media screen and (max-width: 633px) {
+	/*common*/
+	.clearfix:after{
+		display: block;
+		clear: both;
+		content: '';
+		height: 0;
+		overflow: hidden;
+	}
+	/*头部*/
+	header{
+		width: 80%;
+		margin: 0 auto;
+	}
+	header span{
+		display: block;
+		font-size: 25px;
+	}
+	/*中间部分*/
+	.content{
+		width: 80%;
+		/*height: 80%;*/
+		margin: 0 auto;
+
+	}
+	.content_left,.content_right{
+		width: 100%;
+		height: 50%;
+		overflow: hidden;
+	} 
+	.content_right{
+		margin-top: -20px;
+	}
+	.content_left a,.content_right a{
+		display: inline-block;
+	}
+	.content_left a img,.content_right a img{
+		width: 100%;
+		height: 100%;
+	}
+	.content_left a:nth-child(2n+1){
+		width: 60%;
+		height: 30%;
+		margin-right: 0;
+
+	}
+	.content_left a:nth-child(2n){
+		width: 37%;
+		height: 30%;
+
+	}
+	.content_right a:nth-child(2n+1){
+		width: 39%;
+		height: 30%;
+
+	}
+	.content_right a:nth-child(2n){
+		width: 62%;
+		height: 30%;
+
+	}
+	
+}
